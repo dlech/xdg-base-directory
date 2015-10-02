@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Freedesktop.Xdg.BaseDirectory.Sources</id>
+    <version>1.0.0</version>
+    <authors>David Lechner</authors>
+    <owners>dlech</owners>
+    <licenseUrl>https://github.com/dlech/xdg-base-directory/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/dlech/xdg-base-directory</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Class for working with freedesktop XDG base directories.</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2015 David Lechner</copyright>
+    <tags>freedesktop XDG</tags>
+  </metadata>
+  <files>
+    <file src="BaseDirectory.cs.pp" target="content\Freedesktop.Xdg" />
+  </files>
+</package>
