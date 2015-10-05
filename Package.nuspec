@@ -2,14 +2,14 @@
 <package >
   <metadata>
     <id>Freedesktop.Xdg.BaseDirectory.Sources</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <authors>David Lechner</authors>
     <owners>dlech</owners>
     <licenseUrl>https://github.com/dlech/xdg-base-directory/blob/master/LICENSE.md</licenseUrl>
     <projectUrl>https://github.com/dlech/xdg-base-directory</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Class for working with freedesktop XDG base directories.</description>
-    <releaseNotes>Initial release.</releaseNotes>
+    <releaseNotes>Read $HOME environment variable instead of using Environment.SpecialFolder.UserProfile.</releaseNotes>
     <copyright>Copyright 2015 David Lechner</copyright>
     <tags>freedesktop XDG</tags>
   </metadata>
